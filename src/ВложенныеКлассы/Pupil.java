@@ -1,6 +1,6 @@
 package ВложенныеКлассы;
 
-import java.util.Arrays;
+//import java.util.Arrays;
 
 public class Pupil {
     int id;

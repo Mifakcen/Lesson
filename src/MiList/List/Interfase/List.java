@@ -1,5 +1,6 @@
 
-package List.Interfase;
+package MiList.List.Interfase;
+
 
 public interface List {
     void add(Object obj, int index);

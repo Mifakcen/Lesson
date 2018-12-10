@@ -1,6 +1,9 @@
-package List;
 
-import List.Interfase.*;
+
+
+package MiList.List;
+
+import MiList.List.Interfase.*;
 
 public class MiList implements Stack, Queue, List {
 

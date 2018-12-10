@@ -1,4 +1,6 @@
-import List.MiList;
+package MiList;
+
+import MiList.List.*;
 
 public class Main {
     public static void main(String[] args) {

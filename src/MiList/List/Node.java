@@ -1,4 +1,4 @@
-package List;
+package MiList.List;
 
 public class Node {
     private Node last;

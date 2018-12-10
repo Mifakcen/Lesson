@@ -1,4 +1,4 @@
-package List.Interfase;
+package MiList.List.Interfase;
 
 public interface Queue {
     void shift(Object obj);
