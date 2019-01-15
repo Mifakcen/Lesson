@@ -1,6 +1,5 @@
-package Многопоточность.Top_100;
+package Multithreading;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -30,7 +29,7 @@ public class My_Thread extends Thread {
         System.out.println("posihion = "+ posihion+" step "+step);
         for (int i = posihion;i<posihion+step;i++) {
             //System.out.println(listWord.get(i));
-            synchronized (Main.class) {
+            synchronized (MainTop100.class) {
                 if (word.containsKey(listWord.get(i))) {
                     word.put(listWord.get(i), word.get(listWord.get(i)) + 1);
                 } else

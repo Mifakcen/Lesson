@@ -1,4 +1,4 @@
-package Многопоточность.Top_100;
+package Multithreading;
 
 //Задачки:
 //        1. Необходимо выполнить подсчет топ 100 слов параллельно.
@@ -17,7 +17,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Main {
+public class MainTop100 {
     public static void main(String[] args) throws IOException, InterruptedException {
 
         File file = new File("wp.txt");
