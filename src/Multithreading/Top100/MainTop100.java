@@ -1,4 +1,4 @@
-package Multithreading;
+package Multithreading.Top100;
 
 //Задачки:
 //        1. Необходимо выполнить подсчет топ 100 слов параллельно.
@@ -34,7 +34,7 @@ public class MainTop100 {
         List<Thread> MyTrhead = new ArrayList<>();
 
         Map<String,Integer>MyMap = new HashMap<>();
-MyMap.put("Warand",1);
+        MyMap.put("Warand",1);
 
         for (int i =0;i <Runtime.getRuntime().availableProcessors();i++){
             MyTrhead.add( new My_Thread(i,aA,words,MyMap));

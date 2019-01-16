@@ -1,4 +1,4 @@
-package Multithreading;
+package Multithreading.Top100;
 
 import java.util.List;
 import java.util.Map;
@@ -20,8 +20,6 @@ public class My_Thread extends Thread {
         this.listWord=Listword;
         this.word=word;
     }
-
-
 
     @Override
     public void run() {

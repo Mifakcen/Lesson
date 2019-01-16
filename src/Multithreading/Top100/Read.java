@@ -1,4 +1,4 @@
-package Multithreading;
+package Multithreading.Top100;
 
 import java.io.File;
 import java.io.IOException;
